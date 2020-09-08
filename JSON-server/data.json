@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "properties": {
+        "email": {
+          "id": "email",
+          "content": "Email"
+        },
+        "phone": {
+          "id": "phone",
+          "content": "Phone"
+        },
+        "country": {
+          "id": "country",
+          "content": "Country"
+        },
+        "number": {
+          "id": "number",
+          "content": "ID"
+        },
+        "first_name": {
+          "id": "first_name",
+          "content": "Name"
+        },
+        "last_name": {
+          "id": "last_name",
+          "content": "Surname"
+        },
+        "role": {
+          "id": "role",
+          "content": "Role"
+        },
+        "password": {
+          "id": "password",
+          "content": "Password"
+        }
+      },
+      "columns": {
+        "column-1": {
+          "id": "column-1",
+          "title": "Available",
+          "propertyIds": [
+            "email",
+            "phone",
+            "role",
+            "password"
+          ]
+        },
+        "column-2": {
+          "id": "column-2",
+          "title": "Selected",
+          "propertyIds": [
+            "number",
+            "first_name",
+            "country",
+            "last_name"
+          ]
+        }
+      },
+      "columnOrder": [
+        "column-1",
+        "column-2"
+      ],
+      "id": 1
+    }
+  ]
+}
